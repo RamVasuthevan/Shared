@@ -1,0 +1,12 @@
+{
+	"name": "Shared Codespace",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": ["GitHub.codespaces", "GitHub.github-vscode-theme","GitHub.vscode-pull-request-github","ms-azuretools.vscode-docker"
+			]
+		}
+	}
+}
