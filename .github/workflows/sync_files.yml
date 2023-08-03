@@ -11,6 +11,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
       - name: Run GitHub File Sync
-        uses: BetaHuhn/repo-file-sync-action@e2715cb544edee3eff1aae1efbca9be0136e276f
+        uses: BetaHuhn/repo-file-sync-action@v3
         with:
           Token: ${{ secrets.SHARED_GITHUB_ACTIONS }}
