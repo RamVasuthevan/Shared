@@ -13,4 +13,4 @@ jobs:
       - name: Run GitHub File Sync
         uses: BetaHuhn/repo-file-sync-action@v1.21.0
         with:
-          Token: ${{ secrets.SHARED_GITHUB_ACTIONS }}
+          GH_PAT: ${{ secrets.SHARED_GITHUB_ACTIONS }}
