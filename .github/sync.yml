@@ -4,6 +4,8 @@ group:
         dest: .devcontainer/devcontainer.json
       - source: jeykll/Dockerfile
         dest: .devcontainer/Dockerfile
+      - source: jeykll/dependabot.yml
+        dest: .github/dependabot.yml
     repos: |
       RamVasuthevan/Personal-Website
       RamVasuthevan/ModernSlaveryStatements
