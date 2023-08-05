@@ -5,9 +5,13 @@
 	},
 	"customizations": {
 		"vscode": {
-			"extensions": ["GitHub.codespaces", "GitHub.github-vscode-theme","GitHub.vscode-pull-request-github","ms-azuretools.vscode-docker"
+			"extensions": [
+				"GitHub.codespaces",
+				"GitHub.github-vscode-theme",
+				"GitHub.vscode-pull-request-github",
+				"ms-azuretools.vscode-docker"
 			]
 		}
 	},
-	"postCreateCommand": "echo \"alias nb='$(pwd)/.devcontainer/new_branch.sh'\" >> ~/.bashrc",
+	"postCreateCommand": "chmod +x $(pwd)/.devcontainer/new_branch.sh && echo \"alias nb='$(pwd)/.devcontainer/new_branch.sh'\" >> ~/.bashrc",
 }
