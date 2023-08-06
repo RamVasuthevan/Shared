@@ -16,3 +16,8 @@ group:
     repos: |
       RamVasuthevan/Personal-Website
       RamVasuthevan/Shared
+  - files:
+    - source: python/devcontainer.json
+      dest: .devcontainer/devcontainer.json
+    repos: |
+      RamVasuthevan/savepagenow_client
