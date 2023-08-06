@@ -10,3 +10,9 @@ group:
       RamVasuthevan/Personal-Website
       RamVasuthevan/ModernSlaveryStatements
       RamVasuthevan/TaxStrategyStatement
+  - files:
+    - source: new_branch/new_branch.sh
+      dest: .devcontainer/new_branch.sh
+    repos: |
+      RamVasuthevan/Personal-Website
+      RamVasuthevan/Shared
