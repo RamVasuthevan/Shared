@@ -4,7 +4,7 @@ Sync files which are shared between projects
 
 # Jekyll
 
-Devcontainer, dockerfile and dependabot for Jekyll site
+Devcontainer, dockerfile, dependabot and .gitignore for Jekyll sites
 
 # New Branch
 
