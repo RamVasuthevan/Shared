@@ -6,6 +6,8 @@ group:
         dest: .devcontainer/Dockerfile
       - source: jeykll/dependabot.yml
         dest: .github/dependabot.yml
+      - source: jeykll/.gitignore
+        dest: .gitignore
     repos: |
       RamVasuthevan/Personal-Website
       RamVasuthevan/ModernSlaveryStatements
