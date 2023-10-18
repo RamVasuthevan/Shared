@@ -24,3 +24,4 @@ group:
       dest: .devcontainer/devcontainer.json
     repos: |
       RamVasuthevan/savepagenow_client
+      RamVasuthevan/whois-server-list
