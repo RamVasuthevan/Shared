@@ -9,7 +9,6 @@ group:
       - source: jeykll/.gitignore
         dest: .gitignore
     repos: |
-      RamVasuthevan/Personal-Website
       RamVasuthevan/ModernSlaveryStatements
       RamVasuthevan/TaxStrategyStatement
       RamVasuthevan/BestOfUnsplash
